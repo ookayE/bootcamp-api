@@ -2,7 +2,10 @@
 //@route    GET api/v1/bootcamps
 //@access   Public
 exports.getBootcamps = (request, response, next) => {
-  response.status(200).json({ success: true, message: "Show all bootcamps" });
+  response.status(200).json({
+    success: true,
+    message: "Show all bootcamps",
+  });
 };
 
 //@desc     get single bootcamp
