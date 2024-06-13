@@ -20,3 +20,13 @@ find() - - retrieve multiple documents from a MongoDB collection
 findById() - retrieve a single document from a MongoDB collection
 findByIdAndEdit() - edit a document from a MongoDB collection
 findByIdAndDelete() - delete a document from a MongoDB collection
+
+Using asyncHandler.js to tidy up controller and make code more readable, concise, and more maintainable.
+
+Slug: Part of a URL that uniquely identifies a particular page on a website in a human-readable format. It typically consists of a few words separated by hyphens and is derived from the title or content of the page. The primary purposes of slugs are to improve readability, enhance SEO (Search Engine Optimization), and provide a user-friendly way to navigate and share URLs.
+
+Using slugify for improved SEO, better user experience, stable and descriptive URLs, efficient content management, and easier analytics tracking
+
+Creating seeder.js to manage data in Mongo DB. Right now it quickly deletes/imports json data found in data/bootcamps.json
+
+    -fs stands for "File System" and is a built-in module in Node.js. It provides a variety of functions to interact with the file system, allowing you to read from, write to, and manipulate files and directories on your operating system.
