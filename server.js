@@ -10,7 +10,7 @@ const errorHandler = require("./middleware/error");
 const bootcamps = require("./routes/bootcamps");
 
 //Load ENV variables
-dotenv.config({ path: "./config/config.env" });
+dotenv.config({ path: "./config/.env" });
 
 // Connect to Database
 connectDb();
